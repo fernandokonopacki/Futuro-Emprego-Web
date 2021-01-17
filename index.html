@@ -3,10 +3,126 @@
 <head>
     <meta charset="UTF-8">    
     <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
+    <link href="css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">    
 </head>
 <body>
-    
+    <header>
+        <div class="redes-sociais">
+            <ul class="listar-redes">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </div>
+        <div class="menu-head">
+            <ul class="listar-menu">
+                <li><a href="#">LOGIN</a></li>
+                <li><a href="#">INSCREVA-SE</a></li>
+                <li><a href="#">QUEM SOMOS</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="main-logo" id="mainLogo">
+            <img src="/img/Logo Hor.png" class="logoImg" alt="Futuro emprego logo">
+        </div>
+
+        <div class="main-quemSomos startHidden" id="mainWho">
+            <div class="quemSomos-primary">
+                <p>QUEM <span style="font-weight: lighter;color:#ffffff;">SOMOS?</span></p>
+            </div>
+            <div class="quemSomos-second">
+                <div class="infoQuemSomos">
+                    <p>O aplicativo <span style="font-weight: bold;">Futuro Emprego</span> visa a capacitação dos jovens</p>
+                    <p>entre 14 e 17 anos que abandonaram os estudos, fornecendo</p> 
+                    <p>a eles aulas que vão desde o ensino fundamental ao ensino</p> 
+                    <p>médio e inclusive vários cursos profissionalizantes que vão</p> 
+                    <p>auxilia-los em sua inclusão no mercado de trabalho.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="main-cadastro" class="startHidden">
+            <div class="box-cadastro">
+                <img src="/img/Simbolo.png" class="logo-cadastro">
+                <p class="info-cadastre">CADASTRE-SE OU</p>
+                <p class="info-facaLogin">FAÇA O LOGIN</p>
+                <form>
+                    <div class="row justify-content-center">
+                        <div class="col-3 col-auto campos">
+                            <input type="email" class="form-control" id="inputEmail" placeholder="E-Mail">
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Senha">
+                            <br>
+                            <input type="text" class="form-control" id="inputCnpj" placeholder="CNPJ">
+                            <input type="text" class="form-control" id="inputNomeEmpresa" placeholder="Nome da Empresa">
+                            <br>
+                            <button type="submit" class="btn btn-primary">CADASTRE-SE</button>
+                        </div>
+                    </div>                    
+                </form>
+            </div>
+        </div>
+
+        <div id="main-login" class="startHidden">
+            <div class="box-login">
+                <img src="/img/Simbolo.png" class="logo-cadastro">
+                <p class="info-cadastre">CADASTRE-SE OU</p>
+                <p class="info-facaLogin">FAÇA O LOGIN</p>
+                <form>
+                    <div class="row justify-content-center">
+                        <div class="col-3 col-auto campos">
+                            <input type="email" class="form-control" id="inputEmail" placeholder="E-Mail">
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Senha">                                                                            
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="checkRemeber">
+                                <label class="form-check-label" for="autoSizingCheck">
+                                Lembrar
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">CADASTRE-SE</button>
+                            <br>
+                            <br>
+                            <p><a href="#">Esqueci minha senha!</a></p>
+                            <hr>
+                            <p>não tem uma conta? <strong><a href="#">Cadastre-se</a></strong></p>
+                        </div>
+                    </div>                    
+                </form>
+            </div>
+        </div>
+
+        <div id="main-forgetPassword" class="startHidden">
+            <div class="box-forgetPassword">
+                <img src="/img/Simbolo.png" class="logo-cadastro">
+                <p class="info-esqueceu">Digite seu e-mail de cadastro e enviaremos</p>
+                <p class="info-esqueceu">um link para redefinir sua senha.</p>
+                <br>
+                <form>
+                    <div class="row justify-content-center">
+                        <div class="col-3 col-auto campos">
+                            <input type="email" class="form-control" id="inputEmail" placeholder="E-Mail">                            
+                            <br>
+                            <button type="submit" class="btn btn-primary">ENVIAR</button>
+                            <br>                     
+                            <hr>
+                            <p>não tem uma conta? <strong><a href="#">Cadastre-se</a></strong></p>
+                        </div>
+                    </div>                    
+                </form>
+            </div>
+        </div>
+
+    </main>   
 </body>
+
 <script src="js/bootstrap.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-storage.js"></script>
 </html>

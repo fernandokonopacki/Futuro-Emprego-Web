@@ -1,0 +1,146 @@
+body{    
+    background-image: url(/img/girl-1868930_1920.png);
+    background-repeat: no-repeat;
+    background-color: #ffffff;     
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    min-width: 100vh;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.startHidden {
+    display: none;
+}
+
+ul{
+    display: flex;
+}
+
+
+a{
+   text-decoration: none;
+   color: #ffffff; 
+}
+
+a:hover{
+    color: #FFBC42;
+}
+
+.listar-redes {
+    color: #ffffff;
+    padding-left: 0;    
+}
+
+.listar-redes li{
+    margin-left: 30px;
+    font-size: 1.5em;
+}
+
+.listar-menu li{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    color: #ffffff;
+    margin-right: 30px;
+    font-size: 1.3em;
+}
+
+.logoImg{
+    width: 450px;
+    margin-top: 30vh;
+    margin-left: 70px;    
+}
+
+#main-cadastro, #main-login, #main-forgetPassword{
+    text-align: center;
+    margin-top: 10vh;
+    color: #ffffff;
+}
+
+.logo-cadastro{
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.box-cadastro p, .box-login p{     
+    margin-bottom: 0px;
+    font-size: 1.4em;
+}
+
+.info-cadastre{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+}
+
+.info-facaLogin{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #23B5D3;
+}
+
+.form-cadastro{
+    text-align: center;
+}
+
+.campos input{
+    margin-top: 2px;
+}
+
+.campos p{
+    font-size: 1em;    
+}
+
+.campos hr{    
+    border: 1px solid #ffffff;
+}
+
+.info-esqueceu{
+    font-size: 1em;
+    margin-bottom: 1px;
+}
+
+.main-quemSomos{    
+    /*display: flex;*/
+    flex-direction: column;
+    color: #ffffff;
+    justify-content: space-around;
+}
+
+.quemSomos-primary{
+    min-height: calc(50vh - 80px);
+    display: flex;
+    align-items: center;
+    color: #FFBC42;
+}
+
+.quemSomos-primary p{
+    margin-left: 100px;
+    font-size: 2.4em;
+    font-weight: bolder;
+}
+
+.quemSomos-second{
+    min-height: 50vh;
+    background-color: #ffffff;
+    color: black;
+    font-size: 1.8em; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.infoQuemSomos p{
+    margin-bottom: 0px;
+    
+    font-weight: lighter;    
+}
+
+
+
+
