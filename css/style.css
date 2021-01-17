@@ -1,9 +1,12 @@
 body{    
-    background-image: url(/img/girl-1868930_1920.png);
-    background-repeat: no-repeat;
-    background-color: #ffffff;     
-    background-size: cover;
+    
     font-family: 'Ubuntu', sans-serif;
+}
+
+.body{
+    background-image: url(/img/fundohome.png);
+    background-repeat: no-repeat;     
+    background-size: cover;
 }
 
 header{
@@ -141,6 +144,27 @@ a:hover{
     font-weight: lighter;    
 }
 
+.fadeIn {
+    -webkit-animation: fadeIn 3s ease-in-out;
+    -moz-animation: fadeIn 3s ease-in-out;
+    -o-animation: fadeIn 3s ease-in-out;
+    animation: fadeIn 3s ease-in-out;
+}
 
 
-
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+    }
+    @-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+    }
+    @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
