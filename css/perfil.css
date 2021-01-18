@@ -1,0 +1,109 @@
+body{
+    background-image: url(/img/background\ meno.png);
+    background-repeat: no-repeat;    
+    background-size: cover;
+    color: #ffffff;
+}
+
+main{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.headPerfil{
+    display: flex;
+    justify-content: space-around;   
+    width: 100%;
+    margin-top: 200px;
+}
+
+.perfilFoto{
+    display: flex;
+    align-items: center;
+}
+
+.nome p{
+    margin-bottom: 0px;
+    font-size: 1.3em;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.nome p:nth-child(2){
+    font-weight: lighter;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: #23B5D3;    
+}
+
+.foto{
+    background-image: url(/img/joao.png);
+    background-position: center;
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+}
+
+.perfilPoints{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    font-weight: lighter;    
+}
+
+.perfilPoints p{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-weight: lighter;     
+}
+
+.perfilPoints div:nth-child(2){
+    font-size: 2.7em;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+.InfoPerfil{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 65%;
+    margin-top: 40px;
+}
+
+.InfoPerfil p{
+    font-weight: lighter;
+}
+
+.InfoPerfil p:first-child{
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #23B5D3;
+}
+
+.ExpPerfil{
+    width: 65%;
+}
+
+.tituloExp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.progressInfo{
+    display: flex;
+    width: 100%;
+}
+
+.progressBarInfo{
+    width: 80%;    
+}
